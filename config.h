@@ -62,7 +62,7 @@ static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_w,      spawn,          SHCMD("firefox") },
 	{ MODKEY,                       XK_r,      spawn,          SHCMD("thunar") },
-	{ MODKEY,                       XK_BackSpace,   spawn,     SHCMD("sysmenu") },
+	{ MODKEY,                       XK_BackSpace,   spawn,     SHCMD("/home/onni/.local/bin/sysmenu") },
 
 	{ MODKEY,                       XK_d,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
